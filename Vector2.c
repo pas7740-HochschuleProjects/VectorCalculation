@@ -32,6 +32,13 @@ Vector2* vector2DivideWithNumber(Vector2* v, float num){
     return div;
 }
 
+Vector2* vector2Division(Vector2* v1, Vector2* v2){
+    Vector2* div = (Vector2*) malloc(sizeof(Vector2*));
+    div->x = v1->x/v2->x;
+    div->y = v1->y/v2->y;
+    return div;
+}
+
 float vector2GetLength(Vector2* v){
     return sqrt(pow(v->x,2)+pow(v->y,2));
 }
@@ -50,5 +57,5 @@ bool vector2Orthogonal(Vector2* v1, Vector2* v2){
 }
 
 void printVector2(Vector2* v){
-    printf("Vector2: x=%f, y=%f", v->x, v->y);
+    printf("Vector2: x=%f, y=%f\n", v->x, v->y);
 }

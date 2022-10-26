@@ -16,6 +16,8 @@ float vector2ScalarProduct(Vector2* v1, Vector2* v2);
 
 Vector2* vector2DivideWithNumber(Vector2* v, float num);
 
+Vector2* vector2Division(Vector2* v1, Vector2* v2);
+
 float vector2GetLength(Vector2* v);
 
 Vector2* vector2GetMiddlePoint(Vector2* p1, Vector2* p2);
