@@ -1,8 +1,9 @@
+#include <stdio.h>
 #include "Vector2.h"
+#include "Layer.h"
 
 int main(){
-    Vector2 firstVector = {3.0,4.0};
-    Vector2 secondVector = {5.0,7.0};
-    printVector2(getMiddleOfTwoVector2(&firstVector, &secondVector));
+    Vector2 v1 = {2.0,3.0};
+    printf("%f", vector2GetLength(&v1));
     return 0;
 }
