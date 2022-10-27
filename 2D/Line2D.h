@@ -9,4 +9,6 @@ typedef struct{
 
 bool line2DIsMultiple(Line2D* l1, Line2D* l2);
 
-void positionOfTwoLines(Line2D* l1, Line2D* l2);
+void line2DPositionOfTwoLines(Line2D* l1, Line2D* l2);
+
+bool line2DIsPointOnLine(Line2D* l, Vector2* p);
