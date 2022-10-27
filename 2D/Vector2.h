@@ -1,5 +1,5 @@
-#ifndef FUNCTIONS_H_INCLUDED
-#define FUNCTIONS_H_INCLUDED
+#ifndef VECTOR2_H_INCLUDED
+#define VECTOR2_H_INCLUDED
 
 #include <stdbool.h>
 

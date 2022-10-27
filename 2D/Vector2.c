@@ -13,8 +13,8 @@ Vector2* vector2Addition(Vector2* v1, Vector2* v2){
 
 Vector2* vector2Subtraction(Vector2* v1, Vector2* v2){
     Vector2* diff = (Vector2*) malloc(sizeof(Vector2*));
-    diff->x = v1->x + v2->x;
-    diff->y = v1->y + v2->y;
+    diff->x = v1->x - v2->x;
+    diff->y = v1->y - v2->y;
     return diff;
 }
 
